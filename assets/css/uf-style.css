@@ -1,0 +1,82 @@
+html, body{
+	height: 100%;
+}
+body{
+	display: flex;
+    justify-content: flex-end; /* Align items to the right */
+    align-items: center; /* Center items vertically */
+    background-image: url('http://localhost//Green Virtual Classroom/assets/img/BG1.svg'); /* Replace with your image path */
+    background-size: cover; /* Ensures the image covers the entire background */
+    background-position: center; /* Centers the image */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    background-attachment: fixed;
+}
+a{
+	color: #842029;
+	text-decoration: none;
+}
+a:hover{
+	color: #5a1118;
+}
+.uf-form-signin {
+    width: 100%;
+    max-width: 350px;
+    padding: 15px;
+    margin-right: 180px; /* Add margin to the right for spacing */
+}
+.uf-input-group .input-group-text {
+    background: #9dcbf9;
+    color:  #000000;
+    border: unset;
+    font-size: 18px;
+    padding: 15px;
+    width: 50px;
+}
+
+.uf-input-group .form-control {
+    border: 1px;
+    border-left: 1px solid #000000cb;
+    font-size: 16px;
+    background: #cbe8ff;
+}
+
+.uf-input-group .form-control:focus {
+    box-shadow: unset;
+    background: #ffffff;
+}
+.uf-btn-primary {
+    background: #1d115a;
+    color: #fff;
+}
+
+.uf-btn-primary:hover {
+    background: #1d115a;
+    color: #fff;
+}
+
+.uf-form-check-input:checked {
+    background-color: #842029;
+    border-color: #842029;
+}
+
+/* .uf-social-login .uf-social-ic+.uf-social-ic{
+	margin-left: 15px;
+} 
+.uf-social-ic{
+	width: 40px;
+	height: 40px;
+	background: #fff;
+	border-radius: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.uf-social-ic:hover{
+	background: #842029;
+}
+.uf-social-ic:hover i{
+	color: #fff;
+}
+.text-deep-blue {
+    color: #032c56 !important; /* Deep blue color 
+} */
