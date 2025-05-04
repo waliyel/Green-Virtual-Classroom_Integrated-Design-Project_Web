@@ -1,4 +1,11 @@
 <?php
+if(!defined('VIEW_ONLY_MODE')) {
+  header("HTTP/1.1 403 Forbidden");
+  die("Direct access prohibited. View on GitHub only.");
+}
+?>
+
+<?php
 // Establish a connection to the database
 $conn = new mysqli("localhost", "root", "", "green_virtual_classroom"); // Replace with your database credentials
 
